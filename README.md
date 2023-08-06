@@ -1,4 +1,4 @@
-# Fine-Grained Spatiotemporal Motion Alignment for Contrastive Video Representation Learning
+# [MM' 2023] Fine-Grained Spatiotemporal Motion Alignment for Contrastive Video Representation Learning
 ## Overview
 
 Motion information is critical to a robust and generalized video representation. However, the representations learned by the vanilla instance-level contrastive loss are easily overwhelmed by static background cues and lack the ability to capture dynamic motion information. Recent works have adopted frame difference as the source of motion information and align the global pooled motion features at the instance level, which suffers from spatial and temporal weak alignment between the RGB and frame difference modalities. We present a Fine-grained Motion Alignment (FIMA) framework, capable of introducing well-aligned motion information from the noisy frame difference. By introducing fine-grained motion information, the representations learned by FIMA have strong generalization and transferability on various downstream tasks.
