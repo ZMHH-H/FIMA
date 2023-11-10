@@ -66,14 +66,7 @@ python3 eval.py \
   $PATH_TO_UCF101
 ```
 
-## Pre-trained Model
 
-R(2+1)D K400 pre-trained model
-
-| Network |              Dataset               | URL  |
-| :-----: | :--------------------------------: | :--: |
-| R(2+1)D |          K400 Pre-trained          |      |
-| R(2+1)D | K400 Pre-trained UCF101 Fine-tuned |      |
 
 ## Results
 
@@ -101,13 +94,19 @@ We visualize the model attention by applying the class-agnostic activation map. 
 
 ## :memo: Acknowledgement
 
-Our code builds on [MoCo](https://github.com/facebookresearch/moco) and [FAME](https://github.com/Mark12Ding/FAME). Thank them for their excellent work and please keep an eye out for these works!
+Our code builds on [MoCo](https://github.com/facebookresearch/moco) and [FAME](https://github.com/Mark12Ding/FAME). Thank them for their excellent works!
 
 ## :pushpin: BibTeX & Citation
 
  If our work is useful to you, please consider citing our paper using the following BibTeX entry.
 
 ```bibtex
-
+@inproceedings{FIMA,
+  title={Fine-Grained Spatiotemporal Motion Alignment for Contrastive Video Representation Learning},
+  author={Zhu, Minghao and Lin, Xiao and Dang, Ronghao and Liu, Chengju and Chen, Qijun},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={4725--4736},
+  year={2023}
+}
 ```
 
